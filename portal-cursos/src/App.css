@@ -1,0 +1,23 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f3f6fa;
+color: #1f2937; }
+.container { max-width: 780px; margin: 30px auto; padding: 20px; }
+header { display: flex; justify-content: space-between; align-items:
+center;
+ gap: 16px; padding: 18px; background: #f36695; color: rgb(255, 255, 255); borderradius: 10px; }
+IFTO • Aplicativos Web | Atividade prática avaliativa
+nav { display: flex; gap: 16px; }
+nav a { color: rgb(153, 80, 37); text-decoration: none; padding: 6px; }
+nav a.active { text-decoration: underline; font-weight: bold; }
+main { background: white; margin-top: 18px; padding: 24px; borderradius: 10px; }
+form { display: flex; flex-direction: column; gap: 8px; max-width:
+450px; }
+label { margin-top: 10px; font-weight: bold; }
+input { padding: 11px; border: 1px solid #664027; border-radius: 6px; }
+input[aria-invalid="true"] { border-color: #b42318; }
+button { margin-top: 14px; padding: 12px; background: #3a031a; color:
+white;
+ border: 0; border-radius: 6px; cursor: pointer; }
+button:hover { background: #c93170; }
+.erro { color: #b42318; }
+.sucesso { color: #166534; font-weight: bold; }
+@media (max-width: 600px) { header { flex-direction: column; alignitems: flex-start; } }
